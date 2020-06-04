@@ -1,0 +1,6 @@
+﻿<settings>
+  <category label="General">
+	<setting id="parentalblockedpin" label="Codigo parental Pin" type="text"  option="hidden"  default=""/>
+	<setting id="parentalblocked" label="¿Activar Contro parental?" type="bool" default="false" enable="true"/>
+  </category>
+</settings>
