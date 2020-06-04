@@ -7,7 +7,7 @@
 </item>
 <item>
   <title>Temporada 12</title>
-  <link></link>
+  <link>$doregex[T12]</link>
   <thumbnail>http://</thumbnail>
   <fanart>http://</fanart>
   <regex>
