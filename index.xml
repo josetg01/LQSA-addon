@@ -6,6 +6,22 @@
   <fanart>http://</fanart>
 </item>
 <item>
-  <title></title>
+  <title>Temporada 12</title>
   <link></link>
+  <thumbnail>http://</thumbnail>
+  <fanart>http://</fanart>
+  <regex>
+    <name>T12</name>
+    <listrepeat><![CDATA[
+]]></listrepeat>
+    <expres></expres>
+    <page></page>
+  </regex>
+  <regex>
+    <name>ET12</name>
+    <listrepeat><![CDATA[
+]]></listrepeat>
+    <expres></expres>
+    <page></page>
+  </regex>
 </item>
