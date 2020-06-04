@@ -13,15 +13,26 @@
   <regex>
     <name>T12</name>
     <listrepeat><![CDATA[
+      <title>Episodio [T12.param3]</title>
+      <link>[T12.param1]</link>
+      <thumbnail>[T12.param2]</thumbnail>
+      <fanart>http://</fanart>
 ]]></listrepeat>
-    <expres></expres>
-    <page></page>
+    <expres><a href="(.*)" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="alignnone size-full wp-image-6756" style="box-shadow: 0 0 4px #000000; border-radius: 25px;" src="(.*)" alt="LQSA 12x(.*)" width="618" height="412" /></expres>
+    <page>https://comunidadmontepinar.es/episodios/capitulos/</page>
   </regex>
   <regex>
     <name>ET12</name>
     <listrepeat><![CDATA[
 ]]></listrepeat>
     <expres></expres>
+    <page></page>
+  </regex>
+  <regex>
+    <name>DownT12</name>
+    <expres>a class="input popsok"
+                        aria-label="Download file"
+                        href="(.*)"</expres>
     <page></page>
   </regex>
 </item>
