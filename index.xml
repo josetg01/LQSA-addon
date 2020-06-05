@@ -6,7 +6,7 @@
   <fanart>http://</fanart>
 </item>
 <item>
-  <title>Temporada 12</title>
+  <title>[T12.param1] 12</title>
   <link>$doregex[T12]</link>
   <thumbnail>http://</thumbnail>
   <fanart>http://</fanart>
@@ -18,7 +18,7 @@
       <thumbnail>[T12.param2]</thumbnail>
       <fanart>http://</fanart>
 ]]></listrepeat>
-    <expres><a href="(.*)" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="alignnone size-full wp-image-6756" style="box-shadow: 0 0 4px #000000; border-radius: 25px;" src="(.*)" alt="LQSA 12x(.*)" width="618" height="412"></expres>
+    <expres>a href="(.*)" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="alignnone size-full wp-image-6756" style="box-shadow: 0 0 4px #000000; border-radius: 25px;" src="(.*)" alt="LQSA 12x(.*)" width="618" height="412"</expres>
     <page>https://comunidadmontepinar.es/episodios/capitulos/</page>
   </regex>
   <regex>
