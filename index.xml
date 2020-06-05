@@ -25,7 +25,7 @@
     <name>ET12</name>
     <listrepeat><![CDATA[
       <title>[ET12.param2]</title>
-      <link>$doregex[DownT12]</link>
+      <link>[DownT12.param1]</link>
       <thumbnail>[T12.param2]</thumbnail>
       <fanart>http://</fanart>
 ]]></listrepeat>
@@ -43,6 +43,6 @@
     <expres>a class="input popsok"
                         aria-label="Download file"
                         href="(.*?)"</expres>
-    <page>[ET12.param1]</page>
+    <page></page>
   </regex>
 </item>
